@@ -1,0 +1,129 @@
+.footer_area {
+    background-color: #F0F8FF;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+}
+
+.f_widget {
+    margin-bottom: 30px;
+}
+
+.f_title h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.f_widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.f_widget ul li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.f_widget ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.f_widget ul li a:hover {
+    color: #f15025;
+}
+
+.f_widget.contact_widget ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.f_widget.contact_widget ul li i {
+    margin-right: 8px;
+    color: #333;
+}
+
+.f_widget.social_widget ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.f_widget.social_widget ul li a {
+    font-size: 18px;
+    color: #666;
+}
+
+.f_widget.social_widget ul li a:hover {
+    color: #f73c0a;
+}
+
+.footer_area .row {
+    margin-top: 20px;
+}
+
+.footer_area .row .text-center p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer_area .row {
+        text-align: center;
+    }
+
+    .f_widget {
+        text-align: center;
+    }
+}
+
+
+/* Form field styling */
+.form-group input, .form-group textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-shadow: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #f15025;
+    outline: none;
+}
+
+.btn.submit_btn {
+    padding: 10px 30px;
+    background-color: #0ab0f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn.submit_btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.modal .modal-header h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.modal .modal-header p {
+    font-size: 16px;
+    color: #666;
+}
+
+.modal .close {
+    font-size: 24px;
+    color: #333;
+}

@@ -1,0 +1,315 @@
+.services_section {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f5f5f5; /* Soft background color */
+}
+
+.main_title {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px; /* Reduced margin-top to eliminate extra space */
+}
+
+.main_title h2 {
+  font-size: 2.5rem;
+  color: #333; /* Dark text for the heading */
+}
+
+.services_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; /* Space between the service cards */
+}
+
+.service_card {
+  background-color: white; /* White background for the cards */
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the cards */
+  padding: 20px;
+  width: 100%;
+  max-width: 300px; /* Max width of 300px per card */
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.service_card:hover {
+  transform: translateY(-10px); /* Move card up on hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+}
+
+.service_card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #007bff; /* Highlighted blue color for titles */
+}
+
+.service_card p {
+  font-size: 1rem;
+  color: #555; /* Slightly dark text for paragraphs */
+  line-height: 1.6;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+  .services_container {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+  }
+
+  .service_card {
+      max-width: 100%; /* Full width on small screens */
+      margin-bottom: 20px; /* Add space between stacked cards */
+  }
+}
+
+  .welcome_texture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .welcome_texture p {
+    font-size: 1.25rem; /* Increase font size */
+    line-height: 1.8;   /* Adjust line spacing */
+    color: #333;        /* Make the text color more appealing */
+    max-width: 1200px;  /* Set a max-width for better readability on large screens */
+    margin: 0 auto;
+  }
+  
+  .welcome_texture b {
+    font-size: 1.5rem;
+    color: #007bff;  /* Highlighted color for the bold text */
+  }
+    
+  .tools_expert {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.progress_br {
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #e0e0e0 !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    height: 12px !important;
+}
+
+.progress-bar {
+    height: 12px !important;
+    width: 100% !important; /* Full width for each bar */
+    border-radius: 5px !important;
+    transition: width 0.6s ease !important;
+}
+
+/* Custom colors for each skill */
+.js-bg {
+    background-color: #f7df1e !important; /* JavaScript Yellow */
+}
+
+.mern-bg {
+    background-color: #61DBFB !important; /* MERN Stack Light Blue */
+}
+
+.sql-bg {
+    background-color: #006699 !important; /* SQL Dark Blue */
+}
+
+.mean-bg {
+    background-color: #f05032 !important; /* MEAN Stack Orange */
+}
+
+.java-bg {
+    background-color: #007396 !important; /* Java Blue */
+}
+
+.main_title {
+  margin-bottom: 20px;  /* Reduce bottom margin for title */
+}
+
+.feature_area {
+  padding-top: 40px; /* Reduce top padding */
+  padding-bottom: 40px; /* Reduce bottom padding */
+}
+
+.home_gallery_area {
+  padding: 60px 0;
+}
+
+.main_title h2 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.h_gallery_item {
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.h_gallery_item:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.g_img_item {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 3px solid #f15025; /* Add a color border for style */
+}
+
+.g_img_item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Ensure image covers the entire space without distortion */
+}
+
+.g_img_item a.light img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.h_gallery_item:hover .g_img_item a.light img {
+  opacity: 1; /* Show lightbox icon on hover */
+}
+
+.g_item_text {
+  padding: 20px;
+  text-align: center;
+}
+
+.g_item_text h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.g_item_text h5 {
+  font-size: 16px;
+  color: #f15025;
+  margin-bottom: 10px;
+}
+
+.g_item_text p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .g_img_item img {
+      height: 200px;
+  }
+}
+
+
+
+.footer_area {
+  background-color: #F0F8FF;
+  padding: 40px 0;
+  position: relative;
+  text-align: center;
+}
+
+.f_widget {
+  margin-bottom: 30px;
+}
+
+.f_title h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.f_widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.f_widget ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.f_widget ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.f_widget ul li a:hover {
+  color: #f15025;
+}
+
+.f_widget.contact_widget ul li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.f_widget.contact_widget ul li i {
+  margin-right: 8px;
+  color: #333;
+}
+
+.f_widget.social_widget ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.f_widget.social_widget ul li a {
+  font-size: 18px;
+  color: #666;
+}
+
+.f_widget.social_widget ul li a:hover {
+  color: #f15025;
+}
+
+.footer_area .row {
+  margin-top: 20px;
+}
+
+.footer_area .row .text-center p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer_area .row {
+      text-align: center;
+  }
+
+  .f_widget {
+      text-align: center;
+  }
+}

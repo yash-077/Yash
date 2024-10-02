@@ -1,0 +1,202 @@
+.services_section {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .main_title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .main_title h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .services_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .service_card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service_card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .service_card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.progress_br {
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #e0e0e0 !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    height: 12px !important;
+}
+
+.progress-bar {
+    height: 12px !important;
+    width: 100% !important; /* Full width for each bar */
+    border-radius: 5px !important;
+    transition: width 0.6s ease !important;
+}
+
+/* Custom colors for each skill */
+.js-bg {
+    background-color: #f7df1e !important; /* JavaScript Yellow */
+}
+
+.mern-bg {
+    background-color: #61DBFB !important; /* MERN Stack Light Blue */
+}
+
+.sql-bg {
+    background-color: #006699 !important; /* SQL Dark Blue */
+}
+
+.mean-bg {
+    background-color: #f05032 !important; /* MEAN Stack Orange */
+}
+
+.java-bg {
+    background-color: #007396 !important; /* Java Blue */
+}
+
+.main_title {
+    margin-bottom: 20px;  /* Reduce bottom margin for title */
+}
+
+.feature_area {
+    padding-top: 40px; /* Reduce top padding */
+    padding-bottom: 40px; /* Reduce bottom padding */
+}
+
+.footer_area {
+    background-color: #F0F8FF;
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    left: 40;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px; /* You can adjust this size as needed */
+    padding: 0 15px;    /* Small padding to avoid content touching the sides */
+    margin: 0 auto;     /* Center the container */
+}
+.f_widget {
+    margin-bottom: 30px;
+}
+
+.f_title h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.f_widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.f_widget ul li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.f_widget ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.f_widget ul li a:hover {
+    color: #f15025;
+}
+
+.f_widget.contact_widget ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.f_widget.contact_widget ul li i {
+    margin-right: 8px;
+    color: #333;
+}
+
+.f_widget.social_widget ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.f_widget.social_widget ul li a {
+    font-size: 18px;
+    color: #666;
+}
+
+.f_widget.social_widget ul li a:hover {
+    color: #f15025;
+}
+
+.footer_area .row {
+    margin-top: 20px;
+}
+
+.footer_area .row .text-center p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer_area .row {
+        text-align: center;
+    }
+
+    .f_widget {
+        text-align: center;
+    }
+}

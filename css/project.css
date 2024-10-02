@@ -1,0 +1,163 @@
+.home_gallery_area {
+    padding: 60px 0;
+}
+
+.main_title h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.h_gallery_item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.h_gallery_item:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.g_img_item {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid #f15025; /* Add a color border for style */
+}
+
+.g_img_item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Ensure image covers the entire space without distortion */
+}
+
+.g_img_item a.light img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.h_gallery_item:hover .g_img_item a.light img {
+    opacity: 1; /* Show lightbox icon on hover */
+}
+
+.g_item_text {
+    padding: 20px;
+    text-align: center;
+}
+
+.g_item_text h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.g_item_text h5 {
+    font-size: 16px;
+    color: #f15025;
+    margin-bottom: 10px;
+}
+
+.g_item_text p {
+    color: #777;
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .g_img_item img {
+        height: 200px;
+    }
+}
+
+
+
+.footer_area {
+    background-color: #F0F8FF;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+}
+
+.f_widget {
+    margin-bottom: 30px;
+}
+
+.f_title h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.f_widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.f_widget ul li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.f_widget ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.f_widget ul li a:hover {
+    color: #f73c0a;
+}
+
+.f_widget.contact_widget ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.f_widget.contact_widget ul li i {
+    margin-right: 8px;
+    color: #333;
+}
+
+.f_widget.social_widget ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.f_widget.social_widget ul li a {
+    font-size: 18px;
+    color: #575757;
+}
+
+.f_widget.social_widget ul li a:hover {
+    color: #f73c0a;
+}
+
+.footer_area .row {
+    margin-top: 20px;
+}
+
+.footer_area .row .text-center p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer_area .row {
+        text-align: center;
+    }
+
+    .f_widget {
+        text-align: center;
+    }
+}
